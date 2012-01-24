@@ -1,7 +1,3 @@
-##
-## Load with `autoload -U zgitinit; zgitinit'
-##
-
 typeset -gA zgit_info
 zgit_info=()
 
@@ -240,8 +236,6 @@ add-zsh-hook preexec zgit_preexec_hook
 add-zsh-hook precmd zgit_precmd_hook
 
 zgit_info_update
-
-# vim:set ft=zsh:
 
 prompt_wunjo_help () {
   cat <<'EOF'
